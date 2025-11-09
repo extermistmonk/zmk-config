@@ -1,6 +1,6 @@
 file_format: "1"
-id: lily58
-name: Lily58
+id: bread58
+name: Bread58
 type: shield
 url: https://github.com/kata0510/Lily58
 requires: [pro_micro]
@@ -10,5 +10,5 @@ features:
   - display
   - studio
 siblings:
-  - lily58_left
-  - lily58_right
+  - bread58_left
+  - bread58_right
