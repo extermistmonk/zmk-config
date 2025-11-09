@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <bread_layouts.dtsi>
+#include "bread_layouts.dtsi"
 
 / {
     chosen {
