@@ -23,3 +23,5 @@ include:
     shield: bread58_left
   - board: nice_nano_v2
     shield: bread58_right
+  - board: nice_nano_v2
+    shield: settings_reset
