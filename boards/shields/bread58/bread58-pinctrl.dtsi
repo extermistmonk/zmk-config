@@ -1,5 +1,3 @@
-#include <dt-bindings/led/led.h>
-
 &pinctrl {
     /* configuration for i2c0 device, default state */
     i2c0_default: i2c0_default {

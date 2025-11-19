@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2020 Pete Johanson
- *
- * SPDX-License-Identifier: MIT
- */
+#include "bread58-pinctrl.dtsi"
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
