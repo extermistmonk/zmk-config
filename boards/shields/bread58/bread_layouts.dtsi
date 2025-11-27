@@ -6,7 +6,7 @@
         display-name = "Bread";
 
         kscan = <&kscan0>;
-        //transform = <&matrix_transform0>;
+        transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    1  107       0     0     0>
@@ -21,6 +21,16 @@
             , <&key_physical_attrs 100 100 1403   46       0     0     0>
             , <&key_physical_attrs 100 100 1513  128       0     0     0>
             , <&key_physical_attrs 100 100 1622  107       0     0     0>
+            , <&key_physical_attrs 100 100  485  505    2000   535   500>
+            , <&key_physical_attrs 100 100  442  600    2000   492   600>
+            , <&key_physical_attrs 100 100  514  654    2000   564   704>
+            , <&key_physical_attrs 125 100  564  548   11500   614   598>
+            , <&key_physical_attrs 125 100  643  590   11500   693   640>
+            , <&key_physical_attrs 125 100  980  590 (-11500)  1030   640>
+            , <&key_physical_attrs 125 100 1059  548 (-11500)  1109   598>
+            , <&key_physical_attrs 100 100 1109  654 (-2000)  1159   704>
+            , <&key_physical_attrs 100 100 1181  600 (-2000)  1231   600>
+            , <&key_physical_attrs 100 100 1138  505 (-2000)  1188   500>
             , <&key_physical_attrs 100 100    0  213       0     0     0>
             , <&key_physical_attrs 100 100  113  233       0     0     0>
             , <&key_physical_attrs 100 100  227  151       0     0     0>
@@ -57,16 +67,6 @@
             , <&key_physical_attrs 100 100 1396  379       0     0     0>
             , <&key_physical_attrs 100 100 1510  460       0     0     0>
             , <&key_physical_attrs 100 100 1623  440       0     0     0>
-            , <&key_physical_attrs 100 100  485  505    2000   535   500>
-            , <&key_physical_attrs 100 100  442  600    2000   492   600>
-            , <&key_physical_attrs 100 100  514  654    2000   564   704>
-            , <&key_physical_attrs 125 100  564  548   11500   614   598>
-            , <&key_physical_attrs 125 100  643  590   11500   693   640>
-            , <&key_physical_attrs 125 100  980  590 (-11500)  1030   640>
-            , <&key_physical_attrs 125 100 1059  548 (-11500)  1109   598>
-            , <&key_physical_attrs 100 100 1109  654 (-2000)  1159   704>
-            , <&key_physical_attrs 100 100 1181  600 (-2000)  1231   600>
-            , <&key_physical_attrs 100 100 1138  505 (-2000)  1188   500>
             ;
     };
 };
